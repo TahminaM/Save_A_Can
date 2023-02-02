@@ -81,13 +81,13 @@ A [GPS](https://github.com/CPSpotOn/SpotOn) app that allows you to travel with o
 
 ## Project idea:
 
-``What does the web application do?``
+```What does the web application do?```</br>
 My idea is to build a web application that offers table tennis after-school programs to NYC schools. This web app is going to offer information about the program such as the benefits the students get from participating in the program.  A form where principals and teachers that are interested in having the program can fill out, to have an understanding what would be the best option for them. The website is going to showcase the different events that our students do such as tournaments, leagues and exhibitions. This web app is promoting physical and mental health through table tennis. 
 
-``Why Table Tennis?``
+```Why Table Tennis?```</br>
 I chose table tennis because it is a sport that brings so many benefits to our communities, especially to kids and teenagers that are still in school.  I choose this project because table tennis is not popular in NYC schools, and we want to make an impact. It is a sport that can be played all around the year, it is a safe sport that contributes to students' cognitive abilities and hand-eye coordination, and it does not require a big space to get started. 
 
-``Which types of people would want to use this application?`` </br>
+```Which types of people would want to use this application?``` </br>
 Spin and Learn is mainly used by school leaders and educators; a third user would be students' parents since they can also recommend the program to the schools. 
 
 
