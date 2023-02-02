@@ -10,7 +10,6 @@
 
 [Project Ideas](#project-ideas)
 
-
 ## Introduction
 
 Welcome to Capstone Project. In this repo we will be documenting all processes we go to create a Senior Capstone Project for the School Year Spring 2023.
@@ -21,7 +20,9 @@ Welcome to Capstone Project. In this repo we will be documenting all processes w
 
 [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) by GitHub.
 
-[30 days JS](https://github.com/Asabeneh/30-Days-Of-JavaScript) learn JavaScript in 30
+[30 days JS](https://github.com/Asabeneh/30-Days-Of-JavaScript) learn JavaScript in 30.
+
+[Visual Studio Code](https://code.visualstudio.com) is light but powerful text editor that is widly used by developers.
 
 ## Tasks
 
@@ -46,4 +47,4 @@ An app for school bus drivers and parents for bus drivers to have an easier and 
 * (going off from the list of kids from 2 points ago) a checklist type of thing where the buss driver checks off which kid got dropped off
 
 
-@YosefSamman please if any, add WireFrame.
+@YosefSamman please if any, add Wireframe :+1:.
