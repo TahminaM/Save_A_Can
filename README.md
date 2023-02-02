@@ -51,6 +51,7 @@ An app for school bus drivers and parents for bus drivers to have an easier and 
 
 ### Christopher
 
+#### Schedule App
 My idea consist on an app dedicated to facilitate the creating of work schedule for a wide range of size of company. The app consist of a simple is a simple interface that shows important information such as budget for the month, allocated manhours and target / expectation.
 
 The app can will provide the following services:
@@ -62,9 +63,21 @@ The app can will provide the following services:
 5. Data storage in a cloud database.
 6. Data visualization.
    
-#### Wireframe
+##### Wireframe
 
 ![Schedule App Wireframe](https://share.balsamiq.com/c/ojHBijvK8q7PmWCRCkE2sU.png)
+
+#### Ryclying App
+
+My idea consist on an app dedicated to facilitate the recycling process while also suggstion whether such item can be recycle for a profit. The app consist of a simple interface that shows important information such as the nearest recycling center on where item can be dispossed for a profit or not, the type of material that can be recycled and the type of material that can not be recycled.
+
+The app can will provide the following services:
+
+1. Easy to use interface.
+2. Machine Learning Model to identify the type of material.
+3. Map integration to show the nearest recycling center.
+4. Information about the type of material that can be recycled and the type of material that can not be recycled.
+
 
 ### TAHMINA
 
