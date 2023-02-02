@@ -79,7 +79,6 @@ A [GPS](https://github.com/CPSpotOn/SpotOn) app that allows you to travel with o
 
 ### TAHMINA
 
-## Project idea:
 
 ```What does the web application do?```</br>
 My idea is to build a web application that offers table tennis after-school programs to NYC schools. This web app is going to offer information about the program such as the benefits the students get from participating in the program.  A form where principals and teachers that are interested in having the program can fill out, to have an understanding what would be the best option for them. The website is going to showcase the different events that our students do such as tournaments, leagues and exhibitions. This web app is promoting physical and mental health through table tennis. 
