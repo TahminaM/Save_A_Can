@@ -82,7 +82,6 @@ I chose table tennis because it is a sport that brings so many benefits to our c
 ``Features: ``
 
 - [ ] User can connect 
-- [ ] Follow the same things that we have been learning in class
 - [ ] Zip code project
 - [ ] Account for educators and teachers
 - [ ] Interacting with the API
