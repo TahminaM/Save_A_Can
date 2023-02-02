@@ -87,7 +87,7 @@ My idea is to build a web application that offers table tennis after-school prog
 ``Why Table Tennis?``
 I chose table tennis because it is a sport that brings so many benefits to our communities, especially to kids and teenagers that are still in school.  I choose this project because table tennis is not popular in NYC schools, and we want to make an impact. It is a sport that can be played all around the year, it is a safe sport that contributes to students' cognitive abilities and hand-eye coordination, and it does not require a big space to get started. 
 
-``Which types of people would want to use this application?``
+``Which types of people would want to use this application?`` </br>
 Spin and Learn is mainly used by school leaders and educators; a third user would be students' parents since they can also recommend the program to the schools. 
 
 
