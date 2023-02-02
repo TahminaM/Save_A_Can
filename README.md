@@ -45,6 +45,21 @@ An app for school bus drivers and parents for bus drivers to have an easier and 
 * an easy to read list for bus driver of the kids that are on the bus
 * once the bus driver selects a kid on the list, a map shows up so they can drop him/her off (with directions maybe?)
 * (going off from the list of kids from 2 points ago) a checklist type of thing where the buss driver checks off which kid got dropped off
-
-
+  
 @YosefSamman please if any, add Wireframe :+1:.
+
+### Christopher
+
+My idea consist on an app dedicated to facilitate the creating of work schedule for a wide range of size of company. The app consist of a simple is a simple interface that shows important information such as budget for the month, allocated manhours and target / expectation.
+
+The app can will provide the following services:
+
+1. Easy to use interface.
+2. User credential authentication.
+3. Dragable interactivity.
+4. Content exportation to a wide varierty of formats such as PDF, CSV or Excel.
+
+
+#### Wirefram
+
+![Schedule App Wireframe](img/scheduleidea.png)
