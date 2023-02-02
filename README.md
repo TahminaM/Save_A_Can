@@ -58,8 +58,18 @@ The app can will provide the following services:
 2. User credential authentication.
 3. Dragable interactivity.
 4. Content exportation to a wide varierty of formats such as PDF, CSV or Excel.
-
-
-#### Wirefram
+5. Data storage in a cloud database.
+6. Data visualization.
+   
+#### Wireframe
 
 ![Schedule App Wireframe](https://share.balsamiq.com/c/ojHBijvK8q7PmWCRCkE2sU.png)
+
+
+#### Previous Work
+
+##### SpotOn
+
+A [GPS](https://github.com/CPSpotOn/SpotOn) app that allows you to travel with other together in a single instance of map. Track places where travel buddies have been to. It also allows for sharing spots in town that would have gone unnoticed by visitors otherwise.
+
+[Gif Demo](img/Demo.gif)
