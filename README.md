@@ -20,7 +20,7 @@ Welcome to Capstone Project. In this repo we will be documenting all processes w
 
 [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) by GitHub.
 
-[30 days JS](https://github.com/Asabeneh/30-Days-Of-JavaScript) learn JavaScript in 30.
+[30 days JS](https://github.com/Asabeneh/30-Days-Of-JavaScript) learn JavaScript in 30 days.
 
 [Visual Studio Code](https://code.visualstudio.com) is light but powerful text editor that is widly used by developers.
 
