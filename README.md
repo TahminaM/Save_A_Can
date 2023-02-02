@@ -45,6 +45,7 @@ An app for school bus drivers and parents for bus drivers to have an easier and 
 * an easy to read list for bus driver of the kids that are on the bus
 * once the bus driver selects a kid on the list, a map shows up so they can drop him/her off (with directions maybe?)
 * (going off from the list of kids from 2 points ago) a checklist type of thing where the buss driver checks off which kid got dropped off
+* an optimized route for all available kids on the bus for the bus driver to follow, and kids checked off from checklist and notifies parents.
   
 @YosefSamman please if any, add Wireframe :+1:.
 
