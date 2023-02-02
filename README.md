@@ -62,4 +62,4 @@ The app can will provide the following services:
 
 #### Wirefram
 
-![Schedule App Wireframe](img/scheduleidea.png)
+![Schedule App Wireframe](https://share.balsamiq.com/c/ojHBijvK8q7PmWCRCkE2sU.png)
