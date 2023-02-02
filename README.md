@@ -72,4 +72,4 @@ The app can will provide the following services:
 
 A [GPS](https://github.com/CPSpotOn/SpotOn) app that allows you to travel with other together in a single instance of map. Track places where travel buddies have been to. It also allows for sharing spots in town that would have gone unnoticed by visitors otherwise.
 
-[Gif Demo](img/Demo.gif)
+[](img/Demo.gif)
