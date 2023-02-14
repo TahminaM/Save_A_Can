@@ -22,7 +22,7 @@ Welcome to Capstone Project. In this repo we will be documenting all processes w
 
 ## Tasks
 
-### Week 1:
+### Week 1
 
 - [x] Create a GitHub Repo
 - [x] Gather Ideas
@@ -30,15 +30,18 @@ Welcome to Capstone Project. In this repo we will be documenting all processes w
 - [x] Prepare presentation
 - [x] Present
 
-### Week 2:
+### Week 2
 
 - [ ] Create Wireframe
 - [x] Create Work Down Structure
 - [x] Update Project Repo
-- [ ] Research Technologies
+- [x] Research Technologies
 - [ ] Research Recycling
+- [ ] Set Repo to Protected
 
 ## Technologies
+
+Here are a number of technologies we will be using in this project:
 
 1. [React](https://reactjs.org) is a JavaScript library for building user interfaces.
 2. [TensorFlow](https://www.tensorflow.org) is an open-source machine learning framework for everyone.
@@ -49,9 +52,14 @@ Welcome to Capstone Project. In this repo we will be documenting all processes w
 5. [Postman](https://www.postman.com) is the only complete API development environment, for API developers, used by more than 11 million developers and 100,000 companies worldwide.
 6. [Google Maps](https://developers.google.com/maps) is a web mapping service developed by Google. It offers satellite imagery, aerial photography, street maps, 360° panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle (beta), or public transportation.
 7. [Node.js](https://nodejs.org) is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
+8. [30 Days of React](https://www.fullstackreact.com/30-days-of-react/) is a free course that will take you from zero to hero in React.
+9. [30 Days of JavaScript](https://javascript30.com) is a free course that will take you from zero to hero in JavaScript.
+10. [30 Days of CSS](https://css-tricks.com/30-days-css/) is a free course that will take you from zero to hero in CSS.
+11. [How To Use Git](https://www.youtube.com/watch?v=8JJ101D3knE) is a free course that will take you from zero to hero in Git.
+12. [How To Document Your Project](https://www.youtube.com/watch?v=OcL7-7cRpkQ) is a free course that will take you from zero to hero in documenting your project.
+
+Please document any other technologies you would like to use in this project.
 
 ## Work Down Structure
 
 ![](img/Work%20breakdown%20structure.png)
-
-
