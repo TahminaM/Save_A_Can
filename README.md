@@ -4,108 +4,54 @@
 
 [Introduction](#introduction)
 
-[Resources](#resources)
-
 [Tasks](#tasks)
 
-[Project Ideas](#project-ideas)
+[Technologies](#technologies)
+
+[Work Down Structure](#work-down-structure)
 
 ## Introduction
 
-Welcome to Capstone Project. In this repo we will be documenting all processes we go to create a Senior Capstone Project for the School Year Spring 2023.
+Welcome to Capstone Project. In this repo we will be documenting all processes we go to create a Senior Capstone Project for the School Year Spring 2023. We will be working on the Recycling App. A web app that helps you dispose of your recycling while making you money. This innovative app would take a photo as an input and using machine learning would determine if the item is recyclable and point to location in a map where that item can be recycled for money.Main features for the app are:
 
-## Resources
-
-1. [Reamde.so](https://readme.so) is a simple .md web editor.
-
-2. [Git Cheat Sheet](https://education.github.com/git-cheat-sheet-education.pdf) by GitHub.
-
-3. [30 days JS](https://github.com/Asabeneh/30-Days-Of-JavaScript) learn JavaScript in 30 days.
-
-4. [Visual Studio Code](https://code.visualstudio.com) is light but powerful text editor that is widly used by developers.
+1. Sign Up System for users who’d like to keep track of their recycling profits. This feature will be optional as users won't be required to have an existing account in order to proceed.
+2. A machine learning model capable of identifying material type of in an image.
+3. Crucial information and statistics about the item properties.
+4. An interactive map that would point to recycling facilities in the area.
+5. A profit tracker for all users as well as a global tracker for everyone who has used the app.
 
 ## Tasks
 
-- [ ] Gather Ideas
-- [ ] Select Project Idea
+### Week 1:
+
+- [x] Create a GitHub Repo
+- [x] Gather Ideas
+- [x] Select Project Idea
+- [x] Prepare presentation
+- [x] Present
+
+### Week 2:
+
 - [ ] Create Wireframe
-- [ ] Prepare presentation
-- [ ] Present
+- [x] Create Work Down Structure
+- [x] Update Project Repo
+- [ ] Research Technologies
+- [ ] Research Recycling
 
-## Project Ideas
+## Technologies
 
-### Yosef
+1. [React](https://reactjs.org) is a JavaScript library for building user interfaces.
+2. [TensorFlow](https://www.tensorflow.org) is an open-source machine learning framework for everyone.
+   1. [WasteNet](https://recycleye.com/wastenet/) is a waste classification model that uses TensorFlow.js to classify waste into 6 categories: glass, metal, paper, plastic, trash, and cardboard.
+   2. [Waste Classification Data](https://www.kaggle.com/datasets/techsash/waste-classification-data) is a dataset of 2527 images of waste divided into 6 categories: glass, metal, paper, plastic, trash, and cardboard.
+3. [Bootstrap](https://getbootstrap.com) is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
+4. [PG Admin](https://www.pgadmin.org) is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
+5. [Postman](https://www.postman.com) is the only complete API development environment, for API developers, used by more than 11 million developers and 100,000 companies worldwide.
+6. [Google Maps](https://developers.google.com/maps) is a web mapping service developed by Google. It offers satellite imagery, aerial photography, street maps, 360° panoramic views of streets, real-time traffic conditions, and route planning for traveling by foot, car, bicycle (beta), or public transportation.
+7. [Node.js](https://nodejs.org) is an open-source, cross-platform, back-end JavaScript runtime environment that runs on the V8 engine and executes JavaScript code outside a web browser.
 
-Idea 1(vague) School Bus App:
+## Work Down Structure
 
-An app for school bus drivers and parents for bus drivers to have an easier and more efficient way for organizing on what kids to drop off and where, as well as a way for parents to know when their kid is arriving.
-
-* login system for both bus driver to log into school and parent to login
-* notification system for parents that let them know from the bus driver that they arrived at the childs address
-* an easy to read list for bus driver of the kids that are on the bus
-* once the bus driver selects a kid on the list, a map shows up so they can drop him/her off (with directions maybe?)
-* (going off from the list of kids from 2 points ago) a checklist type of thing where the buss driver checks off which kid got dropped off
-* an optimized route for all available kids on the bus for the bus driver to follow, and kids checked off from checklist and notifies parents.
-  
-@YosefSamman please if any, add Wireframe :+1:.
-
-### Christopher
-
-#### Schedule App
-My idea consist on an app dedicated to facilitate the creating of work schedule for a wide range of size of company. The app consist of a simple is a simple interface that shows important information such as budget for the month, allocated manhours and target / expectation.
-
-The app can will provide the following services:
-
-1. Easy to use interface.
-2. User credential authentication.
-3. Dragable interactivity.
-4. Content exportation to a wide varierty of formats such as PDF, CSV or Excel.
-5. Data storage in a cloud database.
-6. Data visualization.
-   
-##### Wireframe
-
-![Schedule App Wireframe](https://share.balsamiq.com/c/ojHBijvK8q7PmWCRCkE2sU.png)
-
-#### Ryclying App
-
-My idea consist on an app dedicated to facilitate the recycling process while also suggstion whether such item can be recycle for a profit. The app consist of a simple interface that shows important information such as the nearest recycling center on where item can be dispossed for a profit or not, the type of material that can be recycled and the type of material that can not be recycled.
-
-The app can will provide the following services:
-
-1. Easy to use interface.
-2. Machine Learning Model to identify the type of material.
-3. Map integration to show the nearest recycling center.
-4. Information about the type of material that can be recycled and the type of material that can not be recycled.
-
-
-### TAHMINA
-
-
-```What does the web application do?```</br>
-My idea is to build a web application that offers table tennis after-school programs to NYC schools. This web app is going to offer information about the program such as the benefits the students get from participating in the program.  A form where principals and teachers that are interested in having the program can fill out, to have an understanding what would be the best option for them. The website is going to showcase the different events that our students do such as tournaments, leagues and exhibitions. This web app is promoting physical and mental health through table tennis. 
-
-```Why Table Tennis?```</br>
-I chose table tennis because it is a sport that brings so many benefits to our communities, especially to kids and teenagers that are still in school.  I choose this project because table tennis is not popular in NYC schools, and we want to make an impact. It is a sport that can be played all around the year, it is a safe sport that contributes to students' cognitive abilities and hand-eye coordination, and it does not require a big space to get started. 
-
-```Which types of people would want to use this application?``` </br>
- Mainly used by school leaders and educators; a third user would be students' parents since they can also recommend the program to the schools. 
-
-
-``Features: ``
-
-- [ ] User can connect 
-- [ ] Zip code project
-- [ ] Account for educators and teachers
-- [ ] Interacting with the API
-- [ ] Use Google API to integrate that into our application and filter table tennis clubs based on their search.
-- [ ] Sign Up -> User Creates a Profile ->  Login 
-- [ ] Zip code, Filtering, APIs for mapping, 
-- [ ] Newsletter - if you want more information, sign up, and we will subscribe you to our newsletter.
-- [ ] What databases are we going to use to save users' data? What information do we want from the user?
-- [ ] Third party’s API, using either Google, Facebook, or Apple to create accounts.
-- [ ] What information do we want from their google account, for instance? 
-
-
+![](img/Work%20breakdown%20structure.png)
 
 
