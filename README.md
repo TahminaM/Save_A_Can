@@ -47,6 +47,8 @@ Here are a number of technologies we will be using in this project:
 2. [TensorFlow](https://www.tensorflow.org) is an open-source machine learning framework for everyone.
    1. [WasteNet](https://recycleye.com/wastenet/) is a waste classification model that uses TensorFlow.js to classify waste into 6 categories: glass, metal, paper, plastic, trash, and cardboard.
    2. [Waste Classification Data](https://www.kaggle.com/datasets/techsash/waste-classification-data) is a dataset of 2527 images of waste divided into 6 categories: glass, metal, paper, plastic, trash, and cardboard.
+   3. [Taco-Trash-Dataset](https://www.kaggle.com/asdasdasasdas/taco-trash-dataset) is a dataset of 1000 images of waste divided into 3 categories: trash, paper, and cardboard.
+   4. [TACO](http://tacodataset.org) is an open image dataset of waste in the wild. It contains photos of litter taken under diverse environments, from tropical beaches to London streets. These images are manually labeled and segmented according to a hierarchical taxonomy to train and evaluate object detection algorithms. The best way to know TACO is to explore our dataset.
 3. [Bootstrap](https://getbootstrap.com) is a free and open-source CSS framework directed at responsive, mobile-first front-end web development.
 4. [PG Admin](https://www.pgadmin.org) is the most popular and feature rich Open Source administration and development platform for PostgreSQL, the most advanced Open Source database in the world.
 5. [Postman](https://www.postman.com) is the only complete API development environment, for API developers, used by more than 11 million developers and 100,000 companies worldwide.
