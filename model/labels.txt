@@ -1,0 +1,12 @@
+aerosol
+battery
+cardboard
+food can
+glass bottle
+ink cartridge
+magazine
+paper bag
+plastic bag
+plastic bottle
+plastic utensils
+soda can
