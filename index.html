@@ -2,42 +2,34 @@
 <html lang="en">
 <head>
   <meta charset="utf-8" />
-  <title>Fresh or Rotten</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Detect Rotten or Fresh Orange in Browser" />
+  <title>What's the Item</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
 <body>
-  <main role="main" class="container mt-5">
-    <div class="row">
-      <div class="col-12">
-        <div class="progress progress-bar progress-bar-striped progress-bar-animated mb-2">
-          Loading Model
-        </div>
+  <h1>What's the item?</h1>
+  <div class="input-container form">
+    <div class="file-input form__input">
+      <input type="file" id="image-selector" accept="image/*">
+    </div>
+    <div class="button-input form__input">
+      <button id="predictBtn">Predict</button>
+    </div>
+  </div>
+  <div class="results">
+    <div class="result-in">
+      <div class="result-image">
+        <h2>Image</h2>
+        <img id="selected-image" class="ml-3" width="250" alt="">
+      </div>
+      <div class="result-list">
+        <ol id="list"></ol>
       </div>
     </div>
-    <div class="row">
-      <div class="col-6">
-        <input id="image-selector" class="form-control border-0" type="file" />
-      </div>
-      <div class="col-6">
-        <button id="predictBtn" class="btn btn-primary float-right">
-          Predict
-        </button>
-      </div>
-    </div>
-    <hr />
-    <div class="row">
-      <div class="col-6">
-        <h2 class="ml-3">Image</h2>
-        <img id="selected-image" class="ml-3" width="250" alt="" />
-      </div>
-      <div class="col-6">
-        <h2 class="ml-3">Predictions</h2>
-        <ol id="list">
-        </ol>
-      </div>
-    </div>
-  </main>
+  </div>
   <!-- Import TensorFlow.js library -->
   <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs/dist/tf.min.js" type="text/javascript"></script>
   <script type="module" src="index.js"></script>
