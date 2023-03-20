@@ -26,8 +26,6 @@ let model;
   }
 })();
 
-
-
 // Get the image from the user
 imageSelector.addEventListener("change", getUploadImage);
 
