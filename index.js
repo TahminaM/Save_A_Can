@@ -1,4 +1,3 @@
-// Labels
 const Result = {
   0: "aerosol",
   1: "battery",
@@ -14,13 +13,24 @@ const Result = {
   11: "soda can"
 };
 
-  // Load the model and get elemts from the DOM
+// Load the model and get elements from the DOM
 const imageSelector = document.getElementById("image-selector");
 const selectedImage = document.getElementById("selected-image");
-const model = await tf.loadGraphModel("./model/model.json");
+let model;
+
+(async function() {
+  model = await tf.loadGraphModel("./model/model.json");
+  console.log("Model loaded successfully");
+  if (model && model.predict) {
+    console.log("Model has predict method");
+  }
+})();
+
+
 
 // Get the image from the user
 imageSelector.addEventListener("change", getUploadImage);
+
 function getUploadImage() {
   let reader = new FileReader();
   reader.onload = function() {
@@ -37,31 +47,44 @@ function getUploadImage() {
   reader.readAsDataURL(file);
 }
 
-  // Predict the image
+// Predict the image
 const predictButton = document.getElementById("predictBtn");
 const resultList = document.getElementById("list");
-// When the predict button is clicked, run the predict function
+
 predictButton.addEventListener("click", async function () {
+  if (!model) {
+    console.error("Model not loaded yet.");
+    return;
+  }
+
   const image = selectedImage;
   const pre_image = tf.browser.fromPixels(image, 3)
     .resizeNearestNeighbor([224, 224])
     .expandDims()
     .toFloat()
     .reverse(-1);
-  const predict_result = await model.predict(pre_image).data();
-  console.log(predict_result);
-  const order = Array.from(predict_result)
-    .map(function (p, i) {
-      return {
-        probability: p,
-        className: Result[i]
-      };
-    }).sort(function (a, b) {
-      return b.probability - a.probability;
-    }).slice(0, 13);
-    // Display the result
-  resultList.innerHTML = "";
-  order.forEach(function (p) {
-    resultList.insertAdjacentHTML("beforeend", `<li>${p.className}: ${parseInt(Math.trunc(p.probability * 100))} %</li>`);
-  });
+
+  try {
+    const predict_result = await model.executeAsync(pre_image);
+    const predict_output = await predict_result.data();
+    console.log("predict_output: ", predict_output);
+    const order = Array.from(predict_output)
+      .map(function (p, i) {
+        return {
+          probability: p,
+          className: Result[i]
+        };
+      })
+      .sort(function (a, b) {
+        return b.probability - a.probability;
+      })
+      .slice(0, 13);
+
+    resultList.innerHTML = "";
+    order.forEach(function (p) {
+      resultList.insertAdjacentHTML("beforeend", `<li>${p.className}: ${parseInt(Math.trunc(p.probability * 100))} %</li>`);
+    });
+  } catch (error) {
+    console.error("Error during prediction: ", error);
+  }
 });
