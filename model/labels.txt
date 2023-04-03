@@ -1,12 +1,11 @@
 aerosol
 battery
-cardboard
-food can
+Can
+Clothes/Shoes
 glass bottle
-ink cartridge
+Ink Cartridge
 magazine
-paper bag
-plastic bag
-plastic bottle
-plastic utensils
-soda can
+Metal
+Organic
+Paper/cardboard
+Plastic

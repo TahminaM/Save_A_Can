@@ -1,16 +1,17 @@
 const Result = {
   0: "aerosol",
   1: "battery",
-  2: "cardboard",
-  3: "food can",
-  4: "glass bottle",
-  5: "ink cartridge",
-  6: "magazine",
-  7: "paper bag",
-  8: "plastic bag",
-  9: "plastic bottle",
-  10: "plastic utensils",
-  11: "soda can"
+  2: "Can",
+  3: "Clothes/Shoes",
+  4: "Glass Bottle",
+  5: "Ink Cartridge",
+  6: "Megazine",
+  7: "Metal",
+  8: "Organic",
+  9: "Paper/Cardboard",
+  10: "Plastic",
+  // 11: "plastic utensils",
+  // 12: "soda can"
 };
 
 // Load the model and get elements from the DOM
