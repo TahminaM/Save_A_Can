@@ -1,0 +1,438 @@
+/* Add custom CSS here */
+/* All pages starts here */
+body{
+    background-color: #EFFCEF;   
+    /* height: 1280px;  */
+}
+#theFooter{
+    background-color: #BFBFBF;
+    width: 100%;
+    margin-top: auto;
+}
+#theFooter p:nth-child(1){
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 200;
+    margin-top: 60px;
+}
+#theFooter p:nth-child(2){
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 200;
+    margin: 0;
+    padding-top: 0;
+}
+/* All pages ends here */
+
+
+
+/* Home page starts here */
+#theDiv{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+#theNav{
+    height: 100px;
+    margin-top: 0%;
+    background-color: #BFBFBF;
+}
+#theLogo{
+    height: 60px;
+    width: 120px;
+}
+.whiteTextBold{/* whiteTextBold is for "Save A Can" in navbar */
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+.whiteTextBold:hover, .whiteTextBold:focus{
+    color: #FFFFFF;
+}
+.whiteText{/* whiteText is for all other nav items (except sign up and login) in navbar */
+    font-size: 20px;
+    font-weight: 200;
+    margin-top: 15px;
+    margin-right: 60px;
+    color: #FFFFFF !important;
+}
+#theSignUp{
+    font-size: 30px;
+    margin-top: -15px;
+    font-weight: 600;
+    color: #4F8FBA;
+}
+#theLogin{
+    font-size: 30px;
+    margin-top: 7.5px;
+    font-weight: 600;
+    color: #2B7A0B;
+}
+#homepageDiv1{/* div for the image on homepage */
+    position: relative;
+}
+#homepageDiv2{/* div for the text over the image on homepage */
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    width: 30%;
+}
+#theHomepageImg{
+    height: 45vh;
+    width: 100vw;
+    position: static;
+}
+#textOnImg{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+} 
+#contactUs{
+    background-color: #3230A5;
+    margin-left: 95px;
+    box-shadow: 4px 4px 5px black;
+    width: 27.5%;
+}
+#contact{
+    color: #FFFFFF;
+    background-color: #3230A5;
+    border: none;
+    font-weight: 600;
+    font-size: 20px;
+    padding: 0% 6%;
+}
+#homepageDiv3{/* div for the "Safe sport for students to play year-round" section */
+    width: 45%;
+    margin-left: 51%;
+    margin-top: 25px;
+}
+#homepageDiv3 p:nth-child(1){
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+}
+#homepageDiv3 p:nth-child(2){
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 200;
+}
+#homepageDiv3 p:nth-child(3){
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 200;
+}
+#homepageDiv4{/* div for the "Improve students' hand-eye coordination" section */
+    width: 45%;
+    margin-left: 2%;
+    margin-top: -280px;
+}
+#homepageDiv4 p:nth-child(1){
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+}
+#homepageDiv4 p:nth-child(2){
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 200;
+}
+#homepageDiv4 p:nth-child(3){
+    color: #FFFFFF;
+    font-size: 35px;
+    font-weight: 200;
+}
+#homepageDiv5{/* div for the "Stay up-to-date with Save A Can by joining our newsletter" section */
+    width: 45%;
+    margin-left: 51%;
+    margin-top: -155px;
+}
+#homepageDiv5 p:nth-child(1){
+    color: #FFFFFF;
+    font-size: 50px;
+    font-weight: 600;
+}
+#homepageDiv5 form input:nth-child(1){
+    color: #FFFFFF;
+    background: transparent;
+    border: none;
+    border-bottom: 5px solid #FFFFFF;
+    width: 85%;
+}
+#homepageDiv5 form input:nth-child(1):focus{
+    outline: none;
+}
+#homepageDiv5 form input:nth-child(2){
+    color: #FFFFFF;
+    background-color: #3230A5;
+    border: none;
+    margin-left: 2.5%;
+    width: 10%;
+    font-weight: 600;
+}
+#homepageDiv5 form input::placeholder{
+    color: #FFFFFF;
+}
+/* Home page ends here */
+
+
+
+/* About page starts here */
+#aboutpageDiv1{
+    position: relative;
+}
+#aboutpageDiv2{
+    position: absolute;
+    top: 180px;
+    left: 20px;
+    width: 30%;
+}
+#theaboutpageImg{
+    height: 55vh;
+    width: 100vw;
+    position: static;
+}
+#textOnImg{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 45px;
+    position: relative;
+} 
+/* About page ends here */
+
+
+
+/* Team page starts here */
+#teamDiv1{
+    width: 14.5%;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    text-decoration: underline;
+    margin: 3% 42.75%;
+}
+#teamDiv2{
+    width: 98%;
+    margin-left: 1%;
+    height: 50vh;
+}
+.developer p{
+    color: #FFFFFF;
+}
+.developer p:nth-child(1){
+    font-weight: 600;
+    font-size: 50px;
+}
+.developer p:nth-child(2){
+    font-weight: 200;
+    font-size: 20px;
+}
+/* Team page ends here */
+
+
+
+/* Sign up page starts here */
+#graySide{
+    background-color: #BFBFBF;
+    border: #BFBFBF 1px solid;
+    width: 16%;
+    float: left;
+    height: 1280px;
+    margin-bottom: -10%;
+}
+#redSide{
+    background-color: #2B7A0B;
+    border: #2B7A0B 1px solid;
+    width: 84%;
+    margin-left: 16%;
+    height: 1280px;
+    margin-bottom: -10%;
+}
+#signUpDiv1{
+    text-align: center;
+    margin-top: 50px;
+}
+#signUpDiv1 p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+}
+#signUpDiv2{
+    margin-left: 4.5%;
+}
+#signUpDiv2 form input{
+    margin-top: 50px;
+    width: 75%;
+}
+#signUpDiv2 form input:nth-child(1), #signUpDiv2 form input:nth-child(2), #signUpDiv2 form input:nth-child(3), #signUpDiv2 form input:nth-child(4){
+    font-weight: 300;
+    font-size: 35px;
+    color: #2B7A0B;
+    background-color: #D9D9D9;
+    border: none;
+}
+#signUpDiv2 form input:nth-child(1)::placeholder, #signUpDiv2 form input:nth-child(2)::placeholder, #signUpDiv2 form input:nth-child(3)::placeholder, #signUpDiv2 form input:nth-child(4)::placeholder{
+    color: #2B7A0B;
+}
+#signUpDiv2 form input:nth-child(1):focus, #signUpDiv2 form input:nth-child(2):focus, #signUpDiv2 form input:nth-child(3):focus, #signUpDiv2 form input:nth-child(4):focus, #signUpSubmit{
+    outline: none;
+}
+#signUpSubmit{
+    font-weight: 300;
+    font-size: 35px;
+    color: #BFBFBF;
+    background-color: #2B7A0B; 
+    border: none;
+    text-align: start;
+
+    margin-top: 50px;
+    width: 75%;
+    height: 40px;
+    text-align: center;
+}
+#signUpSubmit::placeholder{
+    color: #BFBFBF;
+}
+/* Sign up page ends here */
+
+
+
+/* Login page starts here */
+#graySide{
+    background-color: #BFBFBF;
+    border: #BFBFBF 1px solid;
+    width: 16%;
+    float: left;
+    height: 1280px;
+    margin-bottom: -10%;
+}
+#redSide{
+    background-color: #2B7A0B;
+    border: #2B7A0B 1px solid;
+    width: 84%;
+    margin-left: 16%;
+    height: 1280px;
+    margin-bottom: -10%;
+}
+#loginDiv1{
+    text-align: center;
+    margin-top: 50px;
+}
+#loginDiv1 p{
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+}
+#loginDiv2{
+    margin-left: 4.5%;
+}
+#loginDiv2 form input{
+    margin-top: 50px;
+    width: 75%;
+}
+#loginDiv2 form input:nth-child(1), #loginDiv2 form input:nth-child(2), #loginDiv2 form input:nth-child(3), #loginDiv2 form input:nth-child(4){
+    font-weight: 300;
+    font-size: 35px;
+    color: #2B7A0B;
+    background-color: #D9D9D9;
+    border: none;
+}
+#loginDiv2 form input:nth-child(1)::placeholder, #loginDiv2 form input:nth-child(2)::placeholder, #loginDiv2 form input:nth-child(3)::placeholder, #loginDiv2 form input:nth-child(4)::placeholder{
+    color: #2B7A0B;
+}
+#loginDiv2 form input:nth-child(1):focus, #loginDiv2 form input:nth-child(2):focus, #loginDiv2 form input:nth-child(3):focus, #loginDiv2 form input:nth-child(4):focus, #loginSubmit{
+    outline: none;
+}
+#resetPass{
+    color: #FFFFFF;
+    background-color: transparent;
+    border: none;
+    margin-left: 2.25%;
+    font-size: 30px;
+    font-weight: 200;
+}
+#loginSubmit{
+    font-weight: 300;
+    font-size: 35px;
+    color: #BFBFBF;
+    background-color: #2B7A0B; 
+    border: none;
+    text-align: start;
+
+    margin-top: 50px;
+    width: 75%;
+    height: 40px;
+    text-align: center;
+}
+#loginSubmit::placeholder{
+    color: #BFBFBF;
+}
+/* ABOVE FOR LOGINPAGE */
+
+/* BELOW FOR TEAMPAGE */
+#teamDiv1{
+    width: 14.5%;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 45px;
+    text-decoration: underline;
+    margin: 3% 42.75%;
+}
+#teamDiv2{
+    width: 98%;
+    margin-left: 1%;
+    height: 50vh;
+}
+.developer p{
+    color: #FFFFFF;
+}
+.developer p:nth-child(1){
+    font-weight: 600;
+    font-size: 50px;
+}
+.developer p:nth-child(2){
+    font-weight: 200;
+    font-size: 20px;
+}
+/* ABOVE FOR TEAMPAGE */
+
+/* About page starts here */
+#aboutpageDiv1{
+    position: relative;
+}
+/* div for the text over the image on homepage */
+/* #aboutpageDiv2{ */
+    /* position: absolute; */
+    /* top: 180px; */
+    /* left: 20px; */
+    /* width: 30%; */
+/* } */
+#theaboutpageImg{
+    width: 100vw;
+    height: 100vh;
+    
+}
+#textOnImg{
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 45px;
+    position: relative;
+} 
+
+
+.bg-hover:hover {
+    background: #2B7A0B !important;
+}
+.color-hover:hover {
+    color: #2B7A0B !important;
+}
+
+.main{
+    background: rgb(154, 199, 159);
+    width: 100vw;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

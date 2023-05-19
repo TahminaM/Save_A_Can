@@ -1,0 +1,45 @@
+.Header {
+    // background: #a53030;
+    padding: 3px 0;
+    nav {
+      // padding: 0 20px;
+  
+      .logo-container {
+        width: 40px;
+        height: 40px;
+        padding: 10px 0;
+  
+        // background: #a53030;
+        border-radius: 100px;
+        box-shadow: 0 0 0 0 black;
+        border: 1px solid #2B7A0B;
+  
+        display: flex;
+        align-items: center;
+        justify-content: center;
+  
+        .logo {
+          width: 40px;
+          height: 40px;
+          // padding-right: 0;
+        }
+        span {
+          font-size: 20px;
+          color: black;
+          padding-right: 10px;
+          word-spacing: 5px;
+          padding: 0;
+        }
+      }
+      :hover {
+        cursor: pointer;
+      }
+  
+      .nav-item {
+        a {
+          font-size: 20px;
+          color: #2B7A0B;
+        }
+      }
+    }
+  }
